@@ -1,0 +1,91 @@
+.user_form{overflow: hidden;}
+.user_form p {
+    padding-bottom: 15px; display:block; overflow:hidden; width:100%; margin:0 auto;
+}
+.user_form label {
+    float: left;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-top: 9px;
+    text-align: right;
+    width: 137px;
+}
+.user_form p input.user_input {
+    -moz-transition-duration: 0.5s;
+    -moz-transition-property: all;
+    background:url(../../../uploads/front/user_input_bg.gif) no-repeat scroll left top transparent;
+    border-color: #CCCCCC #DDDDDD #DDDDDD #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    padding: 0 8px; line-height:30px; overflow:hidden;
+    width: 245px; 
+}
+/*
+.user_form .user_span_tip{overflow:hidden;float:left; margin-left:430px;margin-top:-47px;position:absolute; z-index:100;}
+*/
+.user_form p input.user_input_verifycode {
+    width: 80px;
+}
+.user_form p input.user_input_hover {
+    border-color: #ABABAB #CCCCCC #CCCCCC #ABABAB;
+}
+.user_form p input.user_input_focus {
+    border-color: #377BCB;
+}
+.user_form p input.user_input_error {
+    border-color: #DA1111;
+}
+.user_form p img.user_verifycode {
+    border: 1px solid #DDDDDD;
+    height: 30px;
+    margin-left: 0;
+    vertical-align: middle;
+    width: 90px;
+}
+.user_form .user_p_verifycode {
+    float: left;
+    width: 270px;
+}
+.user_form .user_p_img_verifycode {
+    float: left;
+    overflow: hidden;
+	width:145px;
+}
+.user_form p span.user_change_verifycode {
+    color: #0000CC;
+    cursor: pointer;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+.user_form input.user_submit {
+    background:url(../../../uploads/front/regbtn-split.gif) no-repeat scroll 0 0 transparent;
+    border: medium none;
+    clear: both;
+    color: white;
+    cursor: pointer;
+	display:block;
+    font-size: 14px;
+    height: 34px;
+    padding-bottom: 2px;
+    width: 109px;
+}
+.user_form input.user_submit_default {
+    background-position: 0 0;
+}
+.user_form input.user_submit_hover {
+    background-position: -120px 0;
+}
+.user_form input.user_submit_mousedown {
+    background-position: -240px 0;
+}
+
+.user_div_off{}
+.user_div_off_txt{padding:4px 10px; line-height:22px; color:#da1111;}
+
+.user_div_on{float:left;font-size:14px;overflow:hidden;background: url(themes/baidu/images/user_div_on_bg.gif) repeat-x 0px bottom;padding-bottom:2px;}
+.user_div_on_txt{padding:4px 10px; line-height:22px; color:#666666;border:1px solid #bbbbbb;}
+.user_div_on_1{background: url(themes/baidu/images/user_div_on.gif) no-repeat 0px -1px; margin-left:-5px; width: 6px;float: left; height:30px;position:absolute;}
